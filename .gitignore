@@ -1,0 +1,13 @@
+# Пакети npm — відтворюються командою npm install
+node_modules/
+
+# ⚠ Секрети: паролі й ключі. НІКОЛИ не потрапляють у Git
+.env
+
+# Службові файли Windows і редакторів
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Резервні копії SSMS
+*.bak

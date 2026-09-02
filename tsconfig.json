@@ -1,0 +1,15 @@
+{
+  "//": "Мінімальний tsconfig для курсу. Кладеться в корінь репозиторію учня на дні 11.",
+  "//2": "Потрібен не для запуску (node виконує .ts напряму), а щоб VS Code перевіряв код суворо.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["app/**/*.ts"]
+}
